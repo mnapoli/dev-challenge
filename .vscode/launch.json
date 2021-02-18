@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+//        {
+//            "name": "Launch currently open script",
+//            "type": "php",
+//            "request": "launch",
+//            "program": "${file}",
+//            "cwd": "${fileDirname}",
+//            "port": 9000
+//        },
+        {
+            "name": "PHPUnit",
+            "type": "php",
+            "request": "launch",
+            "cwd": "project",
+            "program": "${cwd}/project/vendor/bin/phpunit",
+            "args": ["--testdox"]
+        },
+        {
+            "name": "Test IDE",
+            "type": "php",
+            "request": "launch",
+            "cwd": "project",
+            "program": "${cwd}/project/vendor/bin/phpunit",
+            "args": ["--testdox", "${cwd}/project/tests/IDETest.php"]
+        },
+        {
+            "name": "Test OS",
+            "type": "php",
+            "request": "launch",
+            "cwd": "project",
+            "program": "${cwd}/project/vendor/bin/phpunit",
+            "args": ["--testdox", "${cwd}/project/tests/OSTest.php"]
+        }
+    ]
+}

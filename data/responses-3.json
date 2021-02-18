@@ -1,0 +1,26 @@
+[
+    {
+        "responses": {
+            "Quel OS utilisez-vous ?": "Windows 7",
+            "Quel IDE utilisez-vous ?": [
+                "Notepad"
+            ]
+        }
+    },
+    {
+        "responses": {
+            "Quel OS utilisez-vous ?": "Ubuntu",
+            "Quel IDE utilisez-vous ?": [
+                "Notepad"
+            ]
+        }
+    },
+    {
+        "responses": {
+            "Quel OS utilisez-vous ?": "Debian",
+            "Quel IDE utilisez-vous ?": [
+                "Textpad"
+            ]
+        }
+    }
+]

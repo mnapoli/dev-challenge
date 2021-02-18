@@ -1,0 +1,40 @@
+[
+    {
+        "responses": {
+            "Quel OS utilisez-vous ?": "Windows 10",
+            "Quel IDE utilisez-vous ?": [
+                "PhpStorm"
+            ]
+        }
+    },
+    {
+        "responses": {
+            "Quel OS utilisez-vous ?": "macOS",
+            "Quel IDE utilisez-vous ?": [
+                "VS Code",
+                "PhpStorm"
+            ]
+        }
+    },
+    {
+        "responses": {
+            "Quel OS utilisez-vous ?": "macOS"
+        }
+    },
+    {
+        "responses": {
+            "Quel OS utilisez-vous ?": "Windows XP",
+            "Quel IDE utilisez-vous ?": [
+                "VS Code"
+            ]
+        }
+    },
+    {
+        "responses": {
+            "Quel OS utilisez-vous ?": "macOS",
+            "Quel IDE utilisez-vous ?": [
+                "VS Code"
+            ]
+        }
+    }
+]
